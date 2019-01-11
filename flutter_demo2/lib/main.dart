@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-
+import 'package:flutter/foundation.dart';
 /////////////////-------------页面跳转返回参数--------------///////////////////////
 
 void main() {
+  debugDefaultTargetPlatformOverride = TargetPlatform.iOS;
   runApp(
     MaterialApp(title: '导航参数传递', home: OnePage()),
   );
